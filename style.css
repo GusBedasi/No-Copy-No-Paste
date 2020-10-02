@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-size: 60%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #130f0d;
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin-top: 3.2rem;
+    padding-bottom: 4rem;
+    color: #fd951f;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+main {
+    width: min(90vw, 500px);
+    margin: 0 auto;
+}
+
+main p {
+    text-align: justify;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: #333;
+    padding: 2rem;
+    border-radius: .8rem;
+}
+
+main h2 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #fd951f;
+}
+
+main textarea {
+    width: min( 90vw, 500px);
+    height: 400px;
+    font-size: 2.8rem;
+    padding: 2rem;
+    resize: none;
+}
+
+main textarea:focus { outline: none;}
+
+.swal2-popup {
+    width: 40rem;
+}
+
+.swal2-header, .swal2-html-container, .swal2-actions, .swal2-x-mark{
+    font-size: 2rem;
+}
